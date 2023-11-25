@@ -1,0 +1,14 @@
+addi $s0,5
+add $s0,$s1
+sub $s2,$t0
+nor $t1,$t2
+nand $t3,$zero
+slt $s0,$s1
+beq $s0,3
+subi $s0,2
+sll $s0,2
+srl $s0,1
+lw $s0,1
+sw $s0,1
+slti $s0,1
+j 1
